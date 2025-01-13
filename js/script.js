@@ -8,6 +8,8 @@ const bottone = document.querySelector("button");
 // seleziono i dati in output
 const offerta = document.getElementById("offerta");
 const prezzoBiglietto = document.getElementById("prezzo");
+const carrozza = document.getElementById("carrozza");
+const codice = document.getElementById("codice");
 
 // ELABORAZIONE
 
@@ -46,6 +48,9 @@ bottone.addEventListener("click", function (event) {
         offerta.innerText = "Biglietto Standard"
         prezzoBiglietto.innerText = prezzo.toFixed(2)+"€";
     }
+
+    carrozza.innerText = "12";
+    codice.innerText = "PH9284";
 
 });
 

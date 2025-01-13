@@ -13,8 +13,14 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    border-radius: 15px;
     width: 70%;
     background-color: white;
+}
+
+.contBigl {
+    border-radius: 0;
+    
 }
 
 form,
@@ -28,6 +34,10 @@ h2 {
     margin: 40px 0;
 }
 
+label {
+    margin-bottom: 10px;
+}
+
 .col {
     display: flex;
     flex-direction: column;
@@ -37,6 +47,15 @@ h2 {
     padding: 15px;
 }
 
-label {
-    margin-bottom: 10px;
+.bigl {
+    width: 23%;      
 }
+
+
+hr {
+    color: grey;
+    width: 90%;
+    margin: 20px 0;  
+}
+
+
