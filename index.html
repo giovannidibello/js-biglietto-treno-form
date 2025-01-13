@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Biglietto Treno Form JS</title>
 </head>
+
 <body>
+
+    <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+    <!-- dati in input -->
     <form action="#">
 
         <!-- richiesta km da percorrere -->
@@ -24,7 +29,20 @@
         <!-- pulsante per creare -->
         <button>Genera</button>
     </form>
-    
+
+    <!-- output dati biglietto -->
+    <div class="biglietto">
+        <h2>IL TUO BIGLIETTO</h2>
+        <div id="offerta">
+            <h4>Offerta</h4>
+        </div>
+        <div id="prezzo">
+            <h4>Costo biglietto</h4>
+        </div>
+    </div>
+
+
     <script src="./js/script.js"></script>
 </body>
+
 </html>
