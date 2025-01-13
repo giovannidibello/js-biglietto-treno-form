@@ -11,35 +11,70 @@
 <body>
 
     <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+
     <!-- dati in input -->
+
     <form action="#">
+        <div class="container">
+            <!-- richiesta km da percorrere -->
+            <div class="col">
+                <label>Inserisci km da percorrere:</label>
 
-        <!-- richiesta km da percorrere -->
-        <label>Inserisci km da percorrere:</label>
-        <input id="campoNumeroKm" type="text" required>
+                <div>
+                    <input id="campoNumeroKm" type="text" required>
+                </div>
+            </div>
 
-        <!-- richiesta fascia d'erà -->
-        <label>Fascia d'età:</label>
-        <select name="età" id="fasciaEta" required>
-            <option value="minorenne">Minorenne</option>
-            <option value="adulto">Adulto</option>
-            <option value="over65">Over 65</option>
-        </select>
+            <div class="col">
+                <!-- richiesta fascia d'erà -->
 
-        <!-- pulsante per creare -->
-        <button>Genera</button>
+                <label>Fascia d'età:</label>
+
+                <div>
+                    <select name="età" id="fasciaEta" required>
+                        <option value="minorenne">Minorenne</option>
+                        <option value="adulto">Adulto</option>
+                        <option value="over65">Over 65</option>
+                    </select>
+
+                </div>
+            </div>
+
+            <div class="col">
+                <!-- pulsante per creare -->
+                <button>Genera</button>
+            </div>
+        </div>
+
     </form>
 
+
+
     <!-- output dati biglietto -->
+    <h2>IL TUO BIGLIETTO</h2>
+
     <div class="biglietto">
-        <h2>IL TUO BIGLIETTO</h2>
-        <h4>Offerta</h4>
-        <div id="offerta">            
-        </div>
-        <h4>Costo biglietto</h4>
-        <div id="prezzo">            
+
+        <div class="container">
+
+            <!-- offerta generata -->
+            <div class="col">
+                <h4>Offerta</h4>
+                <div id="offerta">
+                </div>
+            </div>
+
+            <!-- prezzo del biglietto generato -->
+            <div class="col">
+                <h4>Costo biglietto</h4>
+                <div id="prezzo">
+                </div>
+            </div>
+
+
         </div>
     </div>
+
 
 
     <script src="./js/script.js"></script>

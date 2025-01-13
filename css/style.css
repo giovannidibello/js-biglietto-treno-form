@@ -1,5 +1,42 @@
 * {
- /* margin: 0; */
- /* border: 0; */
- box-sizing: border-box;
+    /* margin: 0; */
+    /* border: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    background-color: white;
+}
+
+form,
+.biglietto {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    padding: 15px;
+}
+
+label {
+    margin-bottom: 10px;
 }
