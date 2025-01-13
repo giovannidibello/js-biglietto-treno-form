@@ -7,6 +7,23 @@
     <title>Biglietto Treno Form JS</title>
 </head>
 <body>
+    <form action="#">
+
+        <!-- richiesta km da percorrere -->
+        <label>Inserisci km da percorrere:</label>
+        <input type="text" required>
+
+        <!-- richiesta fascia d'erà -->
+        <label>Fascia d'età:</label>
+        <select name="età" id="fasciaEta" required>
+            <option value="minorenne">Minorenne</option>
+            <option value="aldulto">Adulto</option>
+            <option value="over65">Over 65</option>
+        </select>
+
+        <!-- pulsante per creare -->
+        <button>Genera</button>
+    </form>
     
     <script src="./js/script.js"></script>
 </body>
